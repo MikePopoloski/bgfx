@@ -3617,4 +3617,7 @@ BGFX_C_API bgfx_interface_vtbl_t* bgfx_get_interface(uint32_t _version);
 /**/
 BGFX_C_API int32_t bgfx_vsnprintf(char* _str, size_t _count, const char* _format, va_list _argList);
 
+/**/
+BGFX_C_API int32_t bgfx_vsnprintf(char* _str, size_t _count, const char* _format, va_list _argList);
+
 #endif // BGFX_C99_H_HEADER_GUARD
