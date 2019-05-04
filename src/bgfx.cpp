@@ -5322,10 +5322,6 @@ namespace bgfx
 } // namespace bgfx
 
 #include "bgfx.idl.inl"
-BGFX_C_API int32_t bgfx_vsnprintf(char* _str, size_t _count, const char* _format, va_list _argList)
-{
-	return bx::vsnprintf(_str, _count, _format, _argList);
-}
 
 BGFX_C_API int32_t bgfx_vsnprintf(char* _str, size_t _count, const char* _format, va_list _argList)
 {
